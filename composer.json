@@ -1,0 +1,29 @@
+{
+    "name": "szwtdl/db",
+    "description": "szwtdl db",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "pengjian",
+            "email": "szpengjian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Szwtdl\\DB\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-swoole": ">=4.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "swoole/ide-helper": "^4.8",
+        "mockery/mockery": "^1.2.3",
+        "phpstan/phpstan": "^0.12.0"
+    },
+    "minimum-stability": "stable"
+}
